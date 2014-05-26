@@ -1,4 +1,4 @@
 nodechat
 ========
 
-IM
+Testing out socket.io IM
