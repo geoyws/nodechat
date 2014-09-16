@@ -54,6 +54,9 @@
           socket.emit('chatmsg', $('#m').val());
           $('#m').val('').focus();
         });
+        socket.on('chatmsg', function(msg) {
+          $('#messages').append($('<li>').text(msg));
+        });
       });
     </script>
   </head>
